@@ -1,0 +1,40 @@
+/**********************************************
+    Sara L. - UO283706
+    Descripcion del layout de las demás páginas
+**********************************************/
+
+    /*Especificidad:(0,0,1) A=0 B=0 C=1*/
+    body{
+        display: grid;
+        grid-area: body;
+        grid-template-areas: 
+          
+          "body";
+        gap: 0.5vw;
+        min-height: 5em;
+    
+    }
+
+    h2{
+        display: grid;
+        justify-content: center;
+    }
+
+    h3{
+        display: grid;
+        justify-content: center;
+    }
+
+    p{
+        display: grid;
+        justify-content: center;
+    }
+
+    picture{
+        display: grid;
+        justify-content: center;
+    }
+
+    
+    
+    

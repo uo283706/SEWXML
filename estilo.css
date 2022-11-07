@@ -1,0 +1,54 @@
+/**********************************************
+    Sara L. - UO283706
+    Descripcion de los estilos
+    Estilo para la página principal del sitio web
+**********************************************/
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
+body{
+    background-color: rgb(255, 204, 204);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    border-style: solid;
+    border-color: chocolate;
+    border-radius: 1.2em;
+    border-width: 0.5em ;
+    background-color: indigo;
+    color: white;
+    font-size: 2em;  
+   
+}
+
+p{
+    background-color: maroon;
+    color: white;
+    border-width: 0.5em ; 
+    border-radius: 1.2em; 
+    
+}
+
+p a{
+    color: white;
+    background-color: maroon;
+    font-size: 1.5em; 
+}
+
+/*Especificidad:(0,0,1) A=0 B=0 C=1*/
+h3{
+    background-color: crimson;
+    color: white; 
+    font-size: 1.7em; 
+    
+}
+
+/*Especificidad:(0,0,3) A=0 B=0 C=3*/
+picture img{
+    height: 20vw;
+    width: 35vw;
+}
+
+
+
+
